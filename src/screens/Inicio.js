@@ -3,16 +3,12 @@ import { View, Text, Image, Pressable, StyleSheet } from 'react-native';
 const Inicio = ({ navigation }) => {
     return (
         <View style={styles.container}>
-            <Image
-                source={require('../assets/logo.png')}
-                //style={styles.img}
-            />
-            <Text style={[styles.text, {fontSize: 40}]}>Matemateiros_</Text>
+            <Image source={require('../assets/logo.png')} />
+            <Text style={[styles.text, { fontSize: 40 }]}>Matemateiros_</Text>
             <Pressable
                 onPress={() => navigation.navigate('Perfil')}
-                style={styles.btn}
-            >
-                <Text style={[styles.text, {fontSize: 25}]}>Começar</Text>
+                style={styles.btn}>
+                <Text style={[styles.text, { fontSize: 25 }]}>Começar</Text>
             </Pressable>
         </View>
     );
@@ -32,7 +28,7 @@ const styles = StyleSheet.create({
     btn: {
         width: 180,
         backgroundColor: '#8423fb',
-        padding: 20, 
+        padding: 20,
         marginTop: 50,
         borderRadius: 18,
     },
