@@ -6,12 +6,16 @@ import Fracoes from '../screens/fracoes/exerciciosFracoes.js';
 
 const Stack = createStackNavigator();
 
-<Stack.Navigator
-    initialRouteName='Inicio'
-    screenOptions={{
-        headerShown: false,
-    }}>
-    <Stack.Screen name='Inicio' component={Inicio} />
-    <Stack.Screen name='Perfil' component={Perfil} />
-    <Stack.Screen name='Fracoes' component={Fracoes} />
-</Stack.Navigator>
+export default function StackNavigator() {
+    return (
+        <Stack.Navigator
+            initialRouteName='Inicio'
+            screenOptions={{
+                headerShown: false,
+            }}>
+            <Stack.Screen name='Inicio' component={Inicio} />
+            <Stack.Screen name='Perfil' component={Perfil} />
+            <Stack.Screen name='Fracoes' component={Fracoes} />
+        </Stack.Navigator>
+    );
+}
