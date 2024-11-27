@@ -1,6 +1,6 @@
 import { View, Text, Image, StyleSheet, Pressable } from 'react-native';
 
-import PerfilHeader from '../components/Perfilheader.js';
+import PerfilHeader from '../components/PerfilHeader.js';
 import PerfilFooter from '../components/PerfilFooter.js';
 
 const Perfil = ({ navigation }) => {
@@ -30,7 +30,7 @@ const styles = StyleSheet.create({
         flex: 1,
         justifyContent: 'space-around',
         backgroundColor: '#141414',
-    },    
+    },
     buttons: {
     },
     btn: {

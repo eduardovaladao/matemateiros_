@@ -1,8 +1,8 @@
 import { createStackNavigator } from '@react-navigation/stack';
 
-import Inicio from './src/screens/Inicio.js';
-import Perfil from './src/screens/Perfil.js';
-import Fracoes from './src/screens/fracoes/Fracoes.js';
+import Inicio from '../screens/Inicio.js';
+import Perfil from '../screens/Perfil.js';
+import Fracoes from '../screens/fracoes/exerciciosFracoes.js';
 
 const Stack = createStackNavigator();
 
