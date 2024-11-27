@@ -17,7 +17,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.eduardovaladao.snackffa034b543204987a76062dd9ddf2d4d"
     },
     "web": {
       "favicon": "./assets/favicon.png"
