@@ -2,7 +2,7 @@ import React from 'react';
 import { View, Text, StyleSheet, TouchableOpacity, Image } from 'react-native';
 import { FontAwesome } from '@expo/vector-icons';
 
-const App = () => {
+const exerciciosFracoes = ({ navigation }) => {
   return (
     <View style={styles.container}>
       {/* Cabeçalho */}
@@ -13,7 +13,7 @@ const App = () => {
           resizeMode="cover"
         />
         <View style={{ flexDirection: 'row', marginLeft: 20 }}>
-          <TouchableOpacity>
+          <TouchableOpacity onPress={() => navigation.navigate('Fracoes')}>
             <FontAwesome
               name="arrow-left"
               size={24}
@@ -137,4 +137,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default App;
+export default exerciciosFracoes;
