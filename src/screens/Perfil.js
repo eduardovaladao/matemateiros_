@@ -30,7 +30,7 @@ const styles = StyleSheet.create({
         flex: 1,
         justifyContent: 'space-around',
         backgroundColor: '#141414',
-    },    
+    },
     buttons: {
     },
     btn: {
