@@ -8,12 +8,14 @@ const PerfilFooter = ({ navigation }) => {
                 <Image
                     source={require('../assets/simbolos.png')}
                     style={styles.icon}
+                    resizeMode='cover'
                 />
             </Pressable>
             <Pressable>
                 <Image
                     source={require('../assets/engrenagem.png')}
                     style={styles.icon}
+                    resizeMode='cover'
                 />
             </Pressable>
         </View>
@@ -32,6 +34,8 @@ const styles = StyleSheet.create({
         bottom: 0,
     },
     icon: {
+        width: 50,
+        height: 50,
     }
 });
 

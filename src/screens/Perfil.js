@@ -43,7 +43,6 @@ const styles = StyleSheet.create({
     btnText: {
         textAlign: 'center',
         color: '#fafafa',
-        backgroundColor: '#ad6aff',
         borderRadius: 18,
         padding: 5,
         fontSize: 30,
