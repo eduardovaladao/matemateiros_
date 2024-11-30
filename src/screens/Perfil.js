@@ -1,7 +1,7 @@
 import { View, Text, Image, StyleSheet, Pressable } from 'react-native';
 
 import PerfilHeader from '../components/PerfilHeader.js';
-import PerfilFooter from '../components/PerfilFooter.js';
+import Footer from '../components/Footer.js';
 
 const Perfil = ({ navigation }) => {
     return (
@@ -20,7 +20,7 @@ const Perfil = ({ navigation }) => {
                     <Text style={styles.btnText}>Frações</Text>
                 </Pressable>
             </View>
-            <PerfilFooter navigation={navigation} />
+            <Footer navigation={navigation} />
         </View>
     );
 }

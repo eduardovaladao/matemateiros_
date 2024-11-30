@@ -1,23 +1,23 @@
-import { View, Image, Pressable, StyleSheet } from 'react-native';
+import { View, Image, Pressable, StyleSheet, TouchableOpacity } from 'react-native';
 
 const PerfilFooter = ({ navigation }) => {
     return (
         <View style={styles.footer}>
-            <Pressable
+            <TouchableOpacity
                 onPress={() => { navigation.navigate('Perfil') }}>
                 <Image
                     source={require('../assets/simbolos.png')}
                     style={styles.icon}
                     resizeMode='cover'
                 />
-            </Pressable>
-            <Pressable>
+            </TouchableOpacity>
+            <TouchableOpacity>
                 <Image
                     source={require('../assets/engrenagem.png')}
                     style={styles.icon}
                     resizeMode='cover'
                 />
-            </Pressable>
+            </TouchableOpacity>
         </View>
     );
 }
@@ -34,8 +34,7 @@ const styles = StyleSheet.create({
         bottom: 0,
     },
     icon: {
-        width: 50,
-        height: 50,
+        fontSize: 24,
     }
 });
 

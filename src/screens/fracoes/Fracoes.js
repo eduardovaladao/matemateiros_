@@ -43,8 +43,8 @@ const Fracoes = ({ navigation }) => {
           </Text>
         </View>
       </View>
-      <Footer />
-    </View>
+      <Footer navigation={navigation} />
+      </View>
   );
 };
 

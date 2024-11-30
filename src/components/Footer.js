@@ -1,7 +1,7 @@
 import React from "react";
 import { View, Text, TouchableOpacity, StyleSheet, Image } from "react-native";
 
-export default function Footer() {
+export default function Footer({ navigation }) {
   return (
     <View style={styles.footer}>
       <TouchableOpacity style={styles.footerButton}>

@@ -36,13 +36,15 @@ const AdicaoSubtracao = ({ navigation }) => {
         </View>
         */}
         {/* Button */}
-        <TouchableOpacity style={styles.button}>
+        <TouchableOpacity
+          style={styles.button}
+          onPress={() => navigation.navigate('ExercioAdicaoSubtracao')}>
           <Text style={styles.buttonText}>Exercícios</Text>
         </TouchableOpacity>
       </ScrollView>
 
-      <Footer />
-    </View>
+      <Footer navigation={navigation} />
+      </View>
   );
 };
 
