@@ -9,11 +9,13 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "br.edu.iftm",
+      "googleServicesFile": "./google-services.json",
       "adaptiveIcon": {
         "foregroundImage": "./src/assets/logo.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.eduardovaladao.matemateiros",
+      // "package": "com.eduardovaladao.matemateiros",
       "splash": {
         "image": "./src/assets/logo.png",
         "resizeMode": "contain",
