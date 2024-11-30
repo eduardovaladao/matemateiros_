@@ -4,7 +4,7 @@ import {
   Text,
   StyleSheet,
   TouchableOpacity,
-  Image,
+  Dimensions,
   ScrollView,
 } from "react-native";
 import YoutubePlayer from "react-native-youtube-iframe";
@@ -12,6 +12,7 @@ import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 
 const AdicaoSubtracao = ({ navigation }) => {
+  width = Dimensions.get("window").width;
   return (
     <View style={styles.container}>
       <Header navigation={navigation} />
@@ -26,15 +27,15 @@ const AdicaoSubtracao = ({ navigation }) => {
         <Text style={styles.example}>2/3 + 1/3 = 3/3 = 1</Text>
 
         {/* Video Section */}
-        {/*
         <View style={styles.videoContainer}>
           <YoutubePlayer
             height={300}
+            width={width-20}
             play={true}
             videoId={"j8Yi4qaLf5g"} // Substitua pelo ID do vídeo do YouTube
           />
         </View>
-        */}
+
         {/* Button */}
         <TouchableOpacity
           style={styles.button}
@@ -44,7 +45,7 @@ const AdicaoSubtracao = ({ navigation }) => {
       </ScrollView>
 
       <Footer navigation={navigation} />
-      </View>
+    </View>
   );
 };
 

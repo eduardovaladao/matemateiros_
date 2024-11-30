@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "matemateiros_",
+    "name": "Matemateiros",
     "slug": "snack-ffa034b5-4320-4987-a760-62dd9ddf2d4d",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -13,10 +13,12 @@
         "foregroundImage": "./src/assets/logo.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.eduardovaladao.snackffa034b543204987a76062dd9ddf2d4d"
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
+      "package": "com.eduardovaladao.matemateiros",
+      "splash": {
+        "image": "./src/assets/logo.png",
+        "resizeMode": "contain",
+        "backgroundColor": "#ffffff"
+      }
     }
   }
 }
